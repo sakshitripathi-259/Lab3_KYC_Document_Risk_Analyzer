@@ -1,0 +1,32 @@
+filename,text,clean_text,entities,Risk_Level
+aadhaar_sample.pdf,"AADHAAR CARD
+Name: Rahul Sharma
+DOB: 15/08/1996
+Gender: Male
+Aadhaar Number: 1234 5678 9012
+Address:
+12 MG Road
+Bhopal, Madhya Pradesh - 462001",aadhaar card name: rahul sharma dob: 15/08/1996 gender: male aadhaar number: 1234 5678 9012 address: 12 mg road bhopal madhya pradesh - 462001,"1234 5678 9012 (DATE), 12 (CARDINAL), 462001 (DATE)",High Risk
+driving_license_sample.pdf,"DRIVING LICENCE
+Licence No: MP0420210001234
+Name: Rahul Sharma
+DOB: 15/08/1996
+Valid Till: 15/08/2036",driving licence licence no: mp0420210001234 name: rahul sharma dob: 15/08/1996 valid till: 15/08/2036,"mp0420210001234 (PERSON), 15/08/1996 (DATE), 15/08/2036 (DATE)",Medium Risk
+pan_sample.pdf,"PAN CARD
+Name: Rahul Sharma
+Father's Name: Mohan Sharma
+PAN: ABCDE1234F
+DOB: 15/08/1996",pan card name: rahul sharma father s name: mohan sharma pan: abcde1234f dob: 15/08/1996,"pan card (PERSON), abcde1234f (PERSON), 15/08/1996 (DATE)",Medium Risk
+passport_sample.pdf,"PASSPORT
+Passport No: P1234567
+Name: Rahul Sharma
+Nationality: Indian
+Date of Birth: 15/08/1996
+Place of Birth: Bhopal",passport passport no: p1234567 name: rahul sharma nationality: indian date of birth: 15/08/1996 place of birth: bhopal,"indian (NORP), 15/08/1996 (DATE)",High Risk
+utility_bill_sample.pdf,"ELECTRICITY BILL
+Consumer Name: Rahul Sharma
+Consumer No: 9988776655
+Address:
+12 MG Road
+Bhopal
+Amount Due: Rs. 1450",electricity bill consumer name: rahul sharma consumer no: 9988776655 address: 12 mg road bhopal amount due: rs. 1450,"9988776655 (CARDINAL), 12 (CARDINAL), 1450 (DATE)",High Risk
