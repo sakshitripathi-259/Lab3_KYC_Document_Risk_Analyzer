@@ -114,25 +114,6 @@ python -m streamlit run app/main.py
 
 ---
 
-## 📸 Application Preview
-
-### Upload KYC Document
-
-(Add Screenshot)
-
----
-
-### Extracted Information
-
-(Add Screenshot)
-
----
-
-### Risk Assessment
-
-(Add Screenshot)
-
----
 
 ## 📊 Sample Output
 
